@@ -8,7 +8,7 @@ const customTitles = {
   "earlierworks.txt": "Portfolio",
   "paradegame.txt": "INDA_PARADE_game#1",
   "a-shopping-plague-thesis.txt": "A Shopping Plague Genk",
-  "climatedesignstudio.txt": ":Water",
+  "climatedesignstudio.txt": "Water",
   "masterplan.txt": "Masterplan Competition Belgium"
 };
 
