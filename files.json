@@ -12,6 +12,10 @@
     "path": "projects/dex.txt"
   },
   {
+    "name": "earlierworks.txt",
+    "path": "projects/earlierworks.txt"
+  },
+  {
     "name": "masterplan.txt",
     "path": "projects/masterplan.txt"
   },
@@ -98,57 +102,5 @@
   {
     "name": "Screenshot 2025-03-04 193644.png",
     "path": "projects/Screenshot 2025-03-04 193644.png"
-  },
-  {
-    "name": "selectedworks19-2210.jpg",
-    "path": "projects/selectedworks19-2210.jpg"
-  },
-  {
-    "name": "selectedworks19-2211.jpg",
-    "path": "projects/selectedworks19-2211.jpg"
-  },
-  {
-    "name": "selectedworks19-2212.jpg",
-    "path": "projects/selectedworks19-2212.jpg"
-  },
-  {
-    "name": "selectedworks19-2213.jpg",
-    "path": "projects/selectedworks19-2213.jpg"
-  },
-  {
-    "name": "selectedworks19-2214.jpg",
-    "path": "projects/selectedworks19-2214.jpg"
-  },
-  {
-    "name": "selectedworks19-2215.jpg",
-    "path": "projects/selectedworks19-2215.jpg"
-  },
-  {
-    "name": "selectedworks19-223.jpg",
-    "path": "projects/selectedworks19-223.jpg"
-  },
-  {
-    "name": "selectedworks19-224.jpg",
-    "path": "projects/selectedworks19-224.jpg"
-  },
-  {
-    "name": "selectedworks19-225.jpg",
-    "path": "projects/selectedworks19-225.jpg"
-  },
-  {
-    "name": "selectedworks19-226.jpg",
-    "path": "projects/selectedworks19-226.jpg"
-  },
-  {
-    "name": "selectedworks19-227.jpg",
-    "path": "projects/selectedworks19-227.jpg"
-  },
-  {
-    "name": "selectedworks19-228.jpg",
-    "path": "projects/selectedworks19-228.jpg"
-  },
-  {
-    "name": "selectedworks19-229.jpg",
-    "path": "projects/selectedworks19-229.jpg"
   }
 ]

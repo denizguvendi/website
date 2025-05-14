@@ -5,6 +5,7 @@ const customTitles = {
   "archigrad.txt": "archigrad",
   "masterslave.txt": "DEX – Master / Slave",
   "a-shopping-plague.txt": "A Shopping Plague",
+  "earlierworks.txt": "Portfolio",
   "masterplan.txt": "Masterplan Competition Belgium"
 };
 
