@@ -2,13 +2,13 @@ const gallery = document.getElementById("gallery");
 
 const customTitles = {
   "dex.txt": "DEX",
-  "archigrad.txt": "archigrad",
+  "climatedesignstudio.txt": "Water",
   "masterslave.txt": "DEX – Master / Slave",
   "a-shopping-plague.txt": "A Shopping Plague",
-  "earlierworks.txt": "Portfolio",
+  "earlierworks.txt": "works",
   "paradegame.txt": "INDA_PARADE_game#1",
+  "archigrad.txt": "archigrad",
   "a-shopping-plague-thesis.txt": "A Shopping Plague Genk",
-  "climatedesignstudio.txt": "Water",
   "masterplan.txt": "Masterplan Competition Belgium"
 };
 
