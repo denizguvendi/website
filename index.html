@@ -4,32 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Deniz Güvendi – Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Roboto Mono', monospace;
       margin: 0;
       padding: 0;
-      background: #f8f8f8;
-      color: #222;
+      background: #000;
+      color: #fff;
+    }
+
+    a {
+      color: #aaa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #fff;
+      text-decoration: underline;
     }
 
     header {
-      background: #111;
-      color: white;
+      background: #000;
+      color: #fff;
       padding: 2rem 1rem;
       text-align: center;
     }
 
     nav a {
       margin: 0 1rem;
-      color: #ccc;
-      text-decoration: none;
+      color: #888;
       font-weight: bold;
     }
 
     nav a:hover {
-      color: white;
+      color: #fff;
     }
 
     main {
@@ -38,23 +47,27 @@
       padding: 0 1rem;
     }
 
+    h1, h2, h3 {
+      color: #fff;
+    }
+
     h2 {
-      border-bottom: 2px solid #ddd;
+      border-bottom: 1px solid #333;
       padding-bottom: 0.5rem;
     }
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
       margin-top: 1rem;
     }
 
     .project-card {
-      background: white;
-      border: 1px solid #ddd;
+      background: #111;
+      border: 1px solid #333;
       padding: 1rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
       text-align: center;
     }
 
@@ -65,26 +78,29 @@
       margin-bottom: 0.5rem;
     }
 
+    .project-card h3 {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .embed-wrapper iframe {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      border: none;
+    }
+
     footer {
       text-align: center;
       padding: 2rem;
-      color: #888;
       font-size: 0.9rem;
-    }
-
-    a {
-      color: #0077cc;
-    }
-
-    a:hover {
-      text-decoration: underline;
+      color: #777;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Deniz Güvendi</h1>
-    <p>Architect | Istanbul · Ghent</p>
+    <p>Architect · Istanbul · Ghent</p>
     <nav>
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
@@ -93,8 +109,8 @@
   </header>
 
   <main>
-    <section id="intro">
-      <h2>About Me</h2>
+    <section id="about">
+      <h2>About</h2>
       <p>
         Deniz Güvendi is a licensed architect based in Turkey. She studied architecture at Istanbul Technical University (B.Arch), Cracow University of Technology (Erasmus+), and KU Leuven (M.Arch) in Ghent. Her work spans international competitions and collaborative projects across Turkey, Belgium, South Korea, and Africa.
       </p>
@@ -106,14 +122,16 @@
     <section id="projects">
       <h2>Projects</h2>
       <div class="gallery" id="gallery">
-        <!-- Populated by script.js -->
+        <!-- Dynamically populated by script.js -->
       </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:guvendi.archigrad@gmail.com">dguvendi9696@gmail.com</a><br/>
-         Behance: <a href="https://www.behance.net/guvendiportfolio" target="_blank">guvendiportfolio</a>
+      <p>
+        Email: <a href="mailto:guvendi.archigrad@gmail.com">guvendi.archigrad@gmail.com</a><br/>
+        Website: <a href="https://archigrad.io" target="_blank">archigrad.io</a><br/>
+        Behance: <a href="https://www.behance.net/guvendiportfolio" target="_blank">guvendiportfolio</a>
       </p>
     </section>
   </main>
