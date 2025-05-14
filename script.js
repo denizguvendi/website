@@ -6,7 +6,7 @@ const customTitles = {
   "masterslave.txt": "DEX – Master / Slave",
   "a-shopping-plague.txt": "A Shopping Plague",
   "earlierworks.txt": "Portfolio",
-  "paradegame.txt": "paradegame",
+  "paradegame.txt": "INDA_PARADE_game#1",
   "masterplan.txt": "Masterplan Competition Belgium"
 };
 
