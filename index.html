@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deniz Güvendi – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #222;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #ccc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .project-card {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .project-card img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #0077cc;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deniz Güvendi</h1>
+    <p>Architect | Istanbul · Ghent</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>About Me</h2>
+      <p>
+        Deniz Güvendi is a licensed architect based in Turkey. She studied architecture at Istanbul Technical University (B.Arch), Cracow University of Technology (Erasmus+), and KU Leuven (M.Arch) in Ghent. Her work spans international competitions and collaborative projects across Turkey, Belgium, South Korea, and Africa.
+      </p>
+      <p>
+        She is the co-founder of <strong>ArchiGrad</strong>, a design initiative focused on infrastructure stacks as a foundation for architectural thinking. Her interests include adaptability, circular systems, and the interplay between nature, humans, and machines in design.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="gallery" id="gallery">
+        <!-- Populated by script.js -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:dguvendi9696@gmail.com">dguvendi9696@gmail.com</a><br/>
+         Behance: <a href="https://www.behance.net/guvendiportfolio" target="_blank">guvendiportfolio</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Deniz Güvendi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
